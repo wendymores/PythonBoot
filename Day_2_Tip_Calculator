@@ -1,0 +1,11 @@
+bill_amount = input("Please enter the bill amount.\n")
+num_people = input("Please enter the number of people sharing the bill.\n")
+tip_percent = input("Please enter the desired tip percentage.\n")
+print(f"The bill is {bill_amount}.")
+print(f"The tip percentage should be {tip_percent}%.")
+print(f"The number of people equally sharing the bill is {num_people}.")
+share_amount = float(float(bill_amount) / float(num_people))
+tip_amount = share_amount * (float(tip_percent) /100)
+total_share_amount = share_amount + tip_amount
+print(f"Each person should pay {total_share_amount}.")
+
