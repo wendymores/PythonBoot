@@ -1,0 +1,23 @@
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.") 
+segment_1 = input("You stand at an intersection in a forest with two paths that lead in opposite directions. Would you like to go left or right?\n")
+segment_1 = segment_1.upper()
+#print(segment_1) #for debugging only
+if segment_1 == 'LEFT':
+   segment_2 = input("You go left and wander down a path until you come to a misty lake. Would you like to swim across to the island in the middle or wait for a boat? Enter swim or wait.\n")
+   segment_2 = segment_2.upper()
+   if segment_2 == 'WAIT':
+    segment_3 = input("A boat arrives and the keeper beckons you to board. The boat moves quietly to the middle of the lake where you disembark and arrive on a purple island full of pink monkeys. You climb a hill throwing bananas to your left and right and enter a creepy castle where the main room has three colorful doors. Which door do you pick? Enter red, blue or yellow.\n")
+    segment_3 = segment_3.upper()
+    if segment_3 == 'BLUE':
+       print("You are eaten by beasts! Game Over!\n")
+    elif segment_3 == 'YELLOW':
+        print("You found the Yellow Brick Road to the treasure!! You Win!!\n")
+    elif segment_3 == 'RED':
+        print("You are burned by fire! Game over!\n")
+    else:
+        print("That door does not exist!! GAME OVER!!\n")
+   else:
+    print("You have been eaten by a trout! Game Over!\n")
+else:
+   print("You have fallen into a hole. Game Over!\n")
