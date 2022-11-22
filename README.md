@@ -1,4 +1,4 @@
-# PythonBoot
+# Course work - PythonBoot
 Python Bootcamp with The App Brewery on Udemy. 
 These exercises are from 100 days of Code, Python Bootcamp by Dr Angela Yu -- The App Brewery course on Udemy. 
 This course is highly recommended!!  The course offers a wealth of information on Python programming with exercises which allow you to work through various coding challenges. 
